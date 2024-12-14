@@ -1,0 +1,54 @@
+# Visual Studio specific files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+bin/
+obj/
+Debug/
+Release/
+
+# ASP.NET Scaffolding
+.scaffolding/
+
+# Package management
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.ide
+*.tlog
+*.log
+
+# Visual Studio Code specific
+.vscode/
+
+# Rider IDE specific
+.idea/
+*.sln.iml
+
+# DotNet specific
+*.dotnet_sdk_version
+
+# Others
+*.DS_Store
+*.cache
+*.pdb
+*.mdb
+*.exe
+*.db
+
+# Configuration
+appsettings.json
+appsettings.*.json
