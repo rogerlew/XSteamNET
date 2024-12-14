@@ -1,19 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
 	<PropertyGroup>
 		<OutputType>Library</OutputType>
-		<!-- Ensures it compiles to a class library -->
-		<TargetFramework>net6.0</TargetFramework>
-		<!-- Or net7.0, netcoreapp3.1 -->
-		<IsTestProject>true</IsTestProject>
-		<!-- Identifies it as a test project -->
+		<TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>XSteamNET</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Roger Lew</Authors>
+		<Company>University of Idaho</Company>
+		<Description>A .NET port of the pyXSteam library for steam properties.</Description>
+		<PackageTags>steam; thermodynamics; if97; water</PackageTags>
+		<RepositoryUrl>https://github.com/rogerlew/XSteamNET</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.0" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
-    <PackageReference Include="NUnit" Version="4.2.2" />
-    <PackageReference Include="NUnit3TestAdapter" Version="5.0.0-beta.5" />
-  </ItemGroup>
+	<ItemGroup>
+		<!-- Include the LICENSE.md file as part of the package -->
+		<None Include="..\LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
+		<!-- Include the README.md file as part of the package -->
+		<None Include="..\README.md" Pack="true" PackagePath="README.md" />
+	</ItemGroup>
 
+	<ItemGroup>
+		<!-- Required package references -->
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.0" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" PrivateAssets="All" />
+		<PackageReference Include="NUnit" Version="4.2.2" PrivateAssets="All" />
+		<PackageReference Include="NUnit3TestAdapter" Version="5.0.0-beta.5" PrivateAssets="All" />
+	</ItemGroup>
 </Project>
