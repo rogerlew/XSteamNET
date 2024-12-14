@@ -50,7 +50,9 @@ To run the unit tests, ensure you have the following NuGet packages installed:
 ## Install
 
 To include this library in your project, add a reference to the compiled DLL or add it as a 
-dependency via your preferred package manager if hosted on NuGet (e.g., dotnet add package XSteamNET).
+dependency via your preferred package manager from NuGet (e.g., dotnet add package XSteamNET).
+
+https://www.nuget.org/packages/XSteamNET/
 
 ## Nomenclature
 
