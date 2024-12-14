@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSteamNET", "XSteamNET\XSteamNET.csproj", "{D7071B7B-9C50-42F8-AF23-43C1B44679F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XSteamNET", "XSteamNET\XSteamNET.csproj", "{46BB6EE4-095A-485D-A462-ECA25131C6A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSteamNETtests", "XSteamNETtests\XSteamNETtests.csproj", "{7873EC7C-3911-4CFF-9FA9-8586CEB774CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D7071B7B-9C50-42F8-AF23-43C1B44679F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7071B7B-9C50-42F8-AF23-43C1B44679F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7071B7B-9C50-42F8-AF23-43C1B44679F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7071B7B-9C50-42F8-AF23-43C1B44679F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46BB6EE4-095A-485D-A462-ECA25131C6A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BB6EE4-095A-485D-A462-ECA25131C6A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BB6EE4-095A-485D-A462-ECA25131C6A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BB6EE4-095A-485D-A462-ECA25131C6A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7873EC7C-3911-4CFF-9FA9-8586CEB774CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7873EC7C-3911-4CFF-9FA9-8586CEB774CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7873EC7C-3911-4CFF-9FA9-8586CEB774CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7873EC7C-3911-4CFF-9FA9-8586CEB774CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BF6A6BE8-E302-465C-BF5C-105AA8370A6F}
+		SolutionGuid = {28A43CC8-1E2C-4D3C-93EF-B2A0D1D153E5}
 	EndGlobalSection
 EndGlobal
